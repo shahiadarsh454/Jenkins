@@ -1,0 +1,39 @@
+Que-: How to install jenkins ?
+Ans-:
+# Prerequisite (Step 1)
+• Jenkins installation on AWS EC2
+• Create an EC2 instance with ubuntu Linux AMI
+• Connect to your EC2 instance
+• Update all packages by following command:
+ $sudo apt update -y
+• Install java by following command:
+ $sudo apt install java-1.8.0-openjdk-devel
+
+# Step 2
+Jenkins installation on AWS EC2 Using apt
+Add Jenkins to your yum Repository using following command
+Introduction to Jenkins: What You Need
+to Know
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+ https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+ /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+Import a key file from Jenkins -CI to enable installation from the
+package
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+ https://pkg.jenkins.io/debian/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+ https://pkg.jenkins.io/debian binary/ | sudo tee \
+ /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install Jenkins
+# Start and Enable Jenkins Service
+$sudo systemctl start Jenkins
+$sudo systemctl enable jenkins
+$sudo systemctl status jenkins
+ 
+# Get the initial administration password
+$sudo cat /var/lib/jenkins/secrets/initialAdminPassword

@@ -1,0 +1,67 @@
+Introduction to Jenkins: What You Need
+to Know
+How to Use Jenkins: A Step-by-Step Guide
+Hey there! Ready to dive into Jenkins? Whether you're new to
+CI/CD or just need a refresher, this guide will help you get started
+with Jenkins. Let's go!
+Introduction to Jenkins
+
+What is Jenkins?
+• Jenkins is an open-source automation server.
+• It helps automate the parts of software development related to
+building, testing, and deploying, facilitating continuous
+integration and continuous delivery (CI/CD).
+• Jenkins is an open-source automation for CI-CD
+• Jenkins tools developed using java
+• Jenkins is part of Hudson Project
+Initially it is called as Hudson then later it renamed to Jenkins
+
+About CI CD
+• CI and CD are two most frequently used terms in modern
+development practices and DevOps practices
+• CI stands for continuous Integration. It is fundamental DevOps
+best practices where developers frequently merge code
+changes to central repository where automated builds and
+tests runs.
+• CD means Continuous Delivery or Continuous Deployment
+
+Introduction to Jenkins: What You Need
+to Know
+
+Jenkins is a self-contained, open-source automation server which can
+be used to automate all sorts of tasks related to building, testing, and
+deploying software.
+ Build and deployment Process
+1. Take latest source code from Repository
+2. Compile source code
+3. Execute Unit tests (Junit)
+4. Perform code Review
+5. Package code as a war file
+6. Deploy the war file into server
+Note: All the above builds and deployment tasks can be automated
+using Jenkins tool.
+
+Key Features of Jenkins
+• Extensible: Supports a wide range of plugins for integration
+with various tools and services.
+• Distributed Builds: Can distribute builds and tests across
+multiple machines for faster execution.
+• User-Friendly: Provides a simple and intuitive web-based
+interface.
+• Scalable: Easily scales up for large projects and teams.
+Community Support: Boasts a large and active community, providing
+a wealth of plugins, tutorials, and help.
+
+Why Use Jenkins? 
+Introduction to Jenkins: What You Need
+to Know
+
+• Automation: Reduces manual efforts by automating repetitive
+tasks.
+• Consistency: Ensures consistent build and deployment
+processes.
+• Speed: Accelerates development and deployment cycles.
+• Quality: Enhances code quality by running automated tests.
+• Integration: Seamlessly integrates with other tools and
+services.
+
